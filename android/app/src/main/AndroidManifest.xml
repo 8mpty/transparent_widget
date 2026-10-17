@@ -3,6 +3,7 @@
         android:label="TransparentWidget"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
+        <!-- <receiver android:name=".TransparentWidgetProvider" -->
        <receiver android:name="com.example.home_widget.HomeWidgetProvider"
           android:exported="true">
             <intent-filter>

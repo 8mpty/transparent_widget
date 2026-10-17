@@ -46,7 +46,3 @@ android {
 flutter {
     source = "../.."
 }
-
-dependencies {
-    implementation("androidx.glance:glance-appwidget:LATEST-VERSION")
-}
